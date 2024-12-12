@@ -1,4 +1,4 @@
-module github.com/sulwan/qiniu-sdk/v7
+module github.com/medtrib/qiniu-sdk/v7
 
 go 1.14
 
