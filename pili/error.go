@@ -3,7 +3,7 @@ package pili
 import (
 	"net/http"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 var (

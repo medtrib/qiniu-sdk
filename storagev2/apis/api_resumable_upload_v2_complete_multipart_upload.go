@@ -6,11 +6,11 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
-	uplog "github.com/sulwan/qiniu-sdk/v7/internal/uplog"
-	resumableuploadv2completemultipartupload "github.com/sulwan/qiniu-sdk/v7/storagev2/apis/resumable_upload_v2_complete_multipart_upload"
-	errors "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	region "github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	uplog "github.com/medtrib/qiniu-sdk/v7/internal/uplog"
+	resumableuploadv2completemultipartupload "github.com/medtrib/qiniu-sdk/v7/storagev2/apis/resumable_upload_v2_complete_multipart_upload"
+	errors "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	region "github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 	"strings"
 )
 

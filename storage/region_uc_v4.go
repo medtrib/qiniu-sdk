@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/query_bucket_v4"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/query_bucket_v4"
 )
 
 var ucQueryV4Group singleflight.Group

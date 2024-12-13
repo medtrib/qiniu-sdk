@@ -6,7 +6,7 @@ package storage
 import (
 	"encoding/json"
 	"fmt"
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
 	"strings"
 	"testing"
 )

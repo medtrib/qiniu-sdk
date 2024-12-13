@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/uplog"
+	"github.com/medtrib/qiniu-sdk/v7/internal/uplog"
 )
 
 // UpApiVersion 表示上传接口的版本

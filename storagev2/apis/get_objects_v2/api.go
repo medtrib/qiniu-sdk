@@ -4,7 +4,7 @@
 package get_objects_v2
 
 import (
-	credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+	credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 	"io"
 )
 

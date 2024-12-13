@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/cache"
-	"github.com/sulwan/qiniu-sdk/v7/internal/log"
+	"github.com/medtrib/qiniu-sdk/v7/internal/cache"
+	"github.com/medtrib/qiniu-sdk/v7/internal/log"
 )
 
 type (

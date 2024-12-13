@@ -11,12 +11,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uplog"
+	"github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uplog"
 )
 
 // ResumeUploader 表示一个分片上传的对象

@@ -13,14 +13,14 @@ import (
 )
 
 const (
-	PackageNameHTTPClient  = "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	PackageNameAuth        = "github.com/sulwan/qiniu-sdk/v7/auth"
-	PackageNameCredentials = "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	PackageNameRegion      = "github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	PackageNameUpToken     = "github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
-	PackageNameErrors      = "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	PackageNameUplog       = "github.com/sulwan/qiniu-sdk/v7/internal/uplog"
-	PackageNameInternalIo  = "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	PackageNameHTTPClient  = "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	PackageNameAuth        = "github.com/medtrib/qiniu-sdk/v7/auth"
+	PackageNameCredentials = "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	PackageNameRegion      = "github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	PackageNameUpToken     = "github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
+	PackageNameErrors      = "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	PackageNameUplog       = "github.com/medtrib/qiniu-sdk/v7/internal/uplog"
+	PackageNameInternalIo  = "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 var flags struct {

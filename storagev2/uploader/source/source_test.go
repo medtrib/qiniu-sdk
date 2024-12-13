@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	uploader "github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/source"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	uploader "github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/source"
 )
 
 func TestSeekableSource(t *testing.T) {

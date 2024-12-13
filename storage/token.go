@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 // PutPolicy 表示文件上传的上传策略，参考 https://developer.qiniu.com/kodo/manual/1206/put-policy

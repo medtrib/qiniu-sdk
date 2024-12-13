@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/sulwan/qiniu-sdk/v7/sms/bytes"
+	"github.com/medtrib/qiniu-sdk/v7/sms/bytes"
 )
 
 // ---------------------------------------------------

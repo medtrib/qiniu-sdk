@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/freezer"
-	"github.com/sulwan/qiniu-sdk/v7/internal/hostprovider"
+	"github.com/medtrib/qiniu-sdk/v7/internal/freezer"
+	"github.com/medtrib/qiniu-sdk/v7/internal/hostprovider"
 )
 
 type (

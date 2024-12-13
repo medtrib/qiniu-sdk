@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/resumable_upload_v2_complete_multipart_upload"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/resumable_upload_v2_complete_multipart_upload"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 type resumeUploaderAPIs struct {

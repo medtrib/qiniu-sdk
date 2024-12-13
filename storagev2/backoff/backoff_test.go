@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/alex-ant/gomath/rational"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/backoff"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/backoff"
 )
 
 func TestFixedBackoff(t *testing.T) {

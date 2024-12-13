@@ -8,12 +8,12 @@ import (
 	"io"
 	"time"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/resumable_upload_v2_complete_multipart_upload"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/source"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/resumable_upload_v2_complete_multipart_upload"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/source"
 )
 
 type (

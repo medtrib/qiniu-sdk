@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 )
 
 type credentialsSigner struct {

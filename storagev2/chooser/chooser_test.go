@@ -8,7 +8,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
 )
 
 func TestDirectChooser(t *testing.T) {

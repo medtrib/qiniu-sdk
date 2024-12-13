@@ -14,11 +14,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/conf"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/internal/log"
-	"github.com/sulwan/qiniu-sdk/v7/reqid"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/internal/log"
+	"github.com/medtrib/qiniu-sdk/v7/reqid"
 )
 
 var (

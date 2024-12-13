@@ -3,7 +3,7 @@
 // 将源空间的指定对象复制到目标空间
 package copy_object
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

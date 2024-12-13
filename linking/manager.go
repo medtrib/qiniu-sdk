@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 // Manager 代表一个 linking 用户的客户端

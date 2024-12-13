@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	api "github.com/sulwan/qiniu-sdk/v7"
-	"github.com/sulwan/qiniu-sdk/v7/internal/hostprovider"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	api "github.com/medtrib/qiniu-sdk/v7"
+	"github.com/medtrib/qiniu-sdk/v7/internal/hostprovider"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 func parseEtag(etag string) string {

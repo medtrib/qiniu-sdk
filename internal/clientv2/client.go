@@ -6,8 +6,8 @@ import (
 	"sort"
 	"sync"
 
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 type Client interface {

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
 )
 
 // resInfo is httpresponse infomation

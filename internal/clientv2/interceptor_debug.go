@@ -7,8 +7,8 @@ import (
 	"net/http/httptrace"
 	"net/http/httputil"
 
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/internal/log"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/internal/log"
 )
 
 type DebugLevel int

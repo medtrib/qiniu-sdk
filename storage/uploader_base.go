@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/hostprovider"
+	"github.com/medtrib/qiniu-sdk/v7/internal/hostprovider"
 )
 
 // retryMax: 为 0，使用默认值，每个域名只请求一次

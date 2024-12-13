@@ -4,11 +4,11 @@ package apis
 
 import (
 	"context"
-	uplog "github.com/sulwan/qiniu-sdk/v7/internal/uplog"
-	postobject "github.com/sulwan/qiniu-sdk/v7/storagev2/apis/post_object"
-	errors "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	region "github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	uplog "github.com/medtrib/qiniu-sdk/v7/internal/uplog"
+	postobject "github.com/medtrib/qiniu-sdk/v7/storagev2/apis/post_object"
+	errors "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	region "github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 	"strconv"
 	"strings"
 )

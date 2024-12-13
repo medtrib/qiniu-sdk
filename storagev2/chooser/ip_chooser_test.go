@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
 )
 
 func TestIPChooser(t *testing.T) {

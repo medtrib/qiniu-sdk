@@ -5,7 +5,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
 )
 
 // Credentials 七牛鉴权类，用于生成Qbox, Qiniu, Upload签名

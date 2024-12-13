@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
 )
 
 type (

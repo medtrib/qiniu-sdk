@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
 )
 
 func TestJsonFileSystemResumableRecorder(t *testing.T) {

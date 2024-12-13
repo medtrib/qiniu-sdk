@@ -4,10 +4,10 @@ import (
 	"context"
 	"io"
 
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/source"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/source"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 type (

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/source"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/source"
 	"golang.org/x/sync/errgroup"
 )
 

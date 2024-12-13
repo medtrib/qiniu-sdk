@@ -5,7 +5,7 @@ package get_bucket_domains
 
 import (
 	"encoding/json"
-	credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+	credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 )
 
 // 调用 API 所用的请求

@@ -10,12 +10,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/destination"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/objects"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/destination"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/objects"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 	"golang.org/x/sync/errgroup"
 )
 

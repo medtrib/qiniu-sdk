@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 func TestUCRetry(t *testing.T) {

@@ -3,7 +3,7 @@
 // 修改文件的存储类型信息，可以实现标准存储、低频存储和归档存储之间的互相转换
 package set_object_file_type
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

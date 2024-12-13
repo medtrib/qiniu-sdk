@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 func TestMakeReadSeekCloserFromReader(t *testing.T) {

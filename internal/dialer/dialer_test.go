@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/dialer"
+	"github.com/medtrib/qiniu-sdk/v7/internal/dialer"
 )
 
 func TestDialContext(t *testing.T) {

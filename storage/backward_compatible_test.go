@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/sulwan/qiniu-sdk/v7/conf"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
 )
 
 func TestVariable(t *testing.T) {

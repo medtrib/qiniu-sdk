@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 func TestGet(t *testing.T) {

@@ -1,8 +1,8 @@
 package uploader
 
 import (
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 type (

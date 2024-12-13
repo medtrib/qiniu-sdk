@@ -3,7 +3,7 @@
 // 修改存储空间事件通知规则
 package update_bucket_event_rule
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

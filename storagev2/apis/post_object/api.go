@@ -5,8 +5,8 @@ package post_object
 
 import (
 	"encoding/json"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	uptoken "github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	uptoken "github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 // 调用 API 所用的请求

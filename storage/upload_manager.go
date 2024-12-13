@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/defaults"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uplog"
+	"github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/defaults"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uplog"
 )
 
 type UploadResumeVersion = int

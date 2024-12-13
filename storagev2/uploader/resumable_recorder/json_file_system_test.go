@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
 )
 
 func TestJsonFileSystemResumableRecorder(t *testing.T) {

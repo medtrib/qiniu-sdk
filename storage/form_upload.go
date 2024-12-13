@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uploader"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	"github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uploader"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 // PutExtra 为表单上传的额外可选项

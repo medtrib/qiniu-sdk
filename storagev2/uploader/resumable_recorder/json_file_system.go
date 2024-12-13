@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/gofrs/flock"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 	"modernc.org/fileutil"
 )
 

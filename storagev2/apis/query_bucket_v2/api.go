@@ -5,7 +5,7 @@ package query_bucket_v2
 
 import (
 	"encoding/json"
-	errors "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
+	errors "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
 )
 
 // 调用 API 所用的请求

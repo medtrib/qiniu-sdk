@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 // BytesFromRequest 读取 http.Request.Body 的内容到 slice 中

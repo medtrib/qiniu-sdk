@@ -3,7 +3,7 @@
 // 设置存储空间的 cache-control: max-age 响应头
 package set_bucket_max_age
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

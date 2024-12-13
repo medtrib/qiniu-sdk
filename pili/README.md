@@ -54,7 +54,7 @@ package main
 
 import (
 	// ...
-	"github.com/sulwan/qiniu-sdk/v7/pili"
+	"github.com/medtrib/qiniu-sdk/v7/pili"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 func TestAuthInterceptor(t *testing.T) {

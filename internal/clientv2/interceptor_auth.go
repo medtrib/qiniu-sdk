@@ -3,8 +3,8 @@ package clientv2
 import (
 	"net/http"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 )
 
 type AuthConfig struct {

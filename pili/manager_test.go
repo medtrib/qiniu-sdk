@@ -6,8 +6,8 @@ package pili
 import (
 	"os"
 
+	"github.com/medtrib/qiniu-sdk/v7/client"
 	"github.com/stretchr/testify/assert"
-	"github.com/sulwan/qiniu-sdk/v7/client"
 )
 
 var (

@@ -13,14 +13,14 @@ import (
 	"sync"
 	"time"
 
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/backoff"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/destination"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/resolver"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/backoff"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/destination"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/resolver"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 	"golang.org/x/sync/errgroup"
 )
 

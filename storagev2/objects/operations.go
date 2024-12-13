@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/stat_object"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/stat_object"
 )
 
 type (

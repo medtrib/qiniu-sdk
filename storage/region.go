@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/defaults"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	region_v2 "github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/defaults"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	region_v2 "github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 )
 
 // 存储所在的地区，例如华东，华南，华北

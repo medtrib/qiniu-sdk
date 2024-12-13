@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/conf"
-	"github.com/sulwan/qiniu-sdk/v7/internal/hostprovider"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
+	"github.com/medtrib/qiniu-sdk/v7/internal/hostprovider"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 // Base64Uploader 表示一个Base64上传对象

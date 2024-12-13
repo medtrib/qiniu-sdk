@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/sulwan/qiniu-sdk/v7/internal/env"
+	"github.com/medtrib/qiniu-sdk/v7/internal/env"
 )
 
 const Version = "7.25.0"

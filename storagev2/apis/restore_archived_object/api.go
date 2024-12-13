@@ -3,7 +3,7 @@
 // 解冻归档存储类型的文件，可设置解冻有效期1～7天，完成解冻任务通常需要1～5分钟
 package restore_archived_object
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

@@ -62,8 +62,8 @@ package main
 
 import (
 	// ...
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/linking"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/linking"
 )
 
 var (

@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/gammazero/toposort"
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
-	internal_context "github.com/sulwan/qiniu-sdk/v7/internal/context"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/batch_ops"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/stat_object"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
+	internal_context "github.com/medtrib/qiniu-sdk/v7/internal/context"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/batch_ops"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/stat_object"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 type (

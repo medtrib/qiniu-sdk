@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/BurntSushi/toml"
-	"github.com/sulwan/qiniu-sdk/v7/internal/env"
+	"github.com/medtrib/qiniu-sdk/v7/internal/env"
 )
 
 type profileConfig struct {

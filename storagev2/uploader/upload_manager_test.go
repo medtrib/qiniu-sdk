@@ -23,12 +23,12 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uploader"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uploader"
 )
 
 func TestUploadManagerUploadFile(t *testing.T) {

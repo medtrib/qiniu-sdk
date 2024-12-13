@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
 )
 
 //global variables

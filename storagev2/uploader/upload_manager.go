@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 	"golang.org/x/sync/errgroup"
 )
 

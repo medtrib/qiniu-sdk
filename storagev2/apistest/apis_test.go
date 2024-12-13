@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	"github.com/medtrib/qiniu-sdk/v7/client"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 var (

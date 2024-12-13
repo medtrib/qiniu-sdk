@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 func getUploadManager() *UploadManager {

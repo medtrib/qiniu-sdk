@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 func TestRegion(t *testing.T) {

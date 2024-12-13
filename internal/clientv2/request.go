@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sulwan/qiniu-sdk/v7/conf"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 const (

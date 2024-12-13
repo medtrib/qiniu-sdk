@@ -8,7 +8,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/context"
+	"github.com/medtrib/qiniu-sdk/v7/internal/context"
 )
 
 func TestCause(t *testing.T) {

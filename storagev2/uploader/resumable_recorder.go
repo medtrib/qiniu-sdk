@@ -3,9 +3,9 @@ package uploader
 import (
 	"context"
 
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uploader/source"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uploader/source"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 func tryToOpenResumableRecorderForReading(ctx context.Context, src source.Source, multiPartsObjectOptions *MultiPartsObjectOptions, multiPartsUploaderOptions *MultiPartsUploaderOptions) resumablerecorder.ReadableResumableRecorderMedium {

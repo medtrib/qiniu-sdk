@@ -5,8 +5,8 @@ package modify_user_policies
 
 import (
 	"encoding/json"
-	credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	errors "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
+	credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	errors "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
 )
 
 // 调用 API 所用的请求

@@ -3,7 +3,7 @@
 // 禁用存储空间 index.html（或 index.htm） 页面
 package disable_bucket_index_page
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

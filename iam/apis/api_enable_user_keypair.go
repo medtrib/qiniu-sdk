@@ -4,13 +4,13 @@ package apis
 
 import (
 	"context"
-	auth "github.com/sulwan/qiniu-sdk/v7/auth"
-	enableuserkeypair "github.com/sulwan/qiniu-sdk/v7/iam/apis/enable_user_keypair"
-	uplog "github.com/sulwan/qiniu-sdk/v7/internal/uplog"
-	errors "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	region "github.com/sulwan/qiniu-sdk/v7/storagev2/region"
-	uptoken "github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	auth "github.com/medtrib/qiniu-sdk/v7/auth"
+	enableuserkeypair "github.com/medtrib/qiniu-sdk/v7/iam/apis/enable_user_keypair"
+	uplog "github.com/medtrib/qiniu-sdk/v7/internal/uplog"
+	errors "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	region "github.com/medtrib/qiniu-sdk/v7/storagev2/region"
+	uptoken "github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 	"strings"
 	"time"
 )

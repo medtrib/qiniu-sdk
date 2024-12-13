@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/sulwan/qiniu-sdk/v7/sms/bytes/seekable"
+	"github.com/medtrib/qiniu-sdk/v7/sms/bytes/seekable"
 )
 
 const qiniuHeaderPrefix = "X-Qiniu-"

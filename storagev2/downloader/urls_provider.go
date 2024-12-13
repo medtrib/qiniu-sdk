@@ -13,13 +13,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/cache"
-	"github.com/sulwan/qiniu-sdk/v7/internal/log"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/internal/cache"
+	"github.com/medtrib/qiniu-sdk/v7/internal/log"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 )
 
 type (

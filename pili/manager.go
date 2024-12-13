@@ -1,8 +1,8 @@
 package pili
 
 import (
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	"github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 // Manager 提供了 Qiniu PILI Service API 相关功能

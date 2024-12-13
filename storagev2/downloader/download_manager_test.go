@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/get_objects"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/get_objects"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 )
 
 func TestDownloadManagerDownloadDirectory(t *testing.T) {

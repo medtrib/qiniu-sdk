@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/conf"
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 type (

@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/get_bucket_event_rules"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/get_bucket_info"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/get_bucket_infos"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/set_bucket_cors_rules"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/set_bucket_taggings"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/get_bucket_event_rules"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/get_bucket_info"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/get_bucket_infos"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/set_bucket_cors_rules"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/set_bucket_taggings"
 )
 
 // BucketSummary 存储空间信息

@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/dialer"
+	"github.com/medtrib/qiniu-sdk/v7/internal/dialer"
 )
 
 type (

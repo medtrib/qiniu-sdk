@@ -3,7 +3,7 @@ package clientv2
 import (
 	"net/http"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 type antiHijackingInterceptor struct {

@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 )
 
 type GetObjectInput struct {

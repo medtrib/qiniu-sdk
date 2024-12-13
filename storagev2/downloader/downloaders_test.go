@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/backoff"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/destination"
-	resumablerecorder "github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/resolver"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/backoff"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/destination"
+	resumablerecorder "github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/resumable_recorder"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/resolver"
 )
 
 func TestConcurrentDownloaderWithSinglePart(t *testing.T) {

@@ -6,9 +6,9 @@ package sms_test
 import (
 	"os"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
 
-	"github.com/sulwan/qiniu-sdk/v7/sms"
+	"github.com/medtrib/qiniu-sdk/v7/sms"
 )
 
 var manager *sms.Manager

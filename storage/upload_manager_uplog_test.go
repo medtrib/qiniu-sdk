@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	clientV1 "github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uplog"
+	clientV1 "github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uplog"
 )
 
 func TestUploadManagerUplogForm(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 const (

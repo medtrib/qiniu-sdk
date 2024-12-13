@@ -3,7 +3,7 @@
 // 修改文件的存储状态，即禁用状态和启用状态间的的互相转换
 package modify_object_status
 
-import credentials "github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+import credentials "github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 
 // 调用 API 所用的请求
 type Request struct {

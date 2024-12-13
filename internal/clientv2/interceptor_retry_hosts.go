@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/hostprovider"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	"github.com/medtrib/qiniu-sdk/v7/internal/hostprovider"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 type HostsRetryConfig struct {

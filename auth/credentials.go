@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	api "github.com/sulwan/qiniu-sdk/v7"
-	"github.com/sulwan/qiniu-sdk/v7/conf"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/defaults"
+	api "github.com/medtrib/qiniu-sdk/v7"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/defaults"
 )
 
 const (

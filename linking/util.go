@@ -3,7 +3,7 @@ package linking
 import (
 	"net/http"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
 )
 
 // ---------------------------------------------------------------------------------------

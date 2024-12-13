@@ -5,9 +5,9 @@ package resumable_upload_v2_upload_part
 
 import (
 	"encoding/json"
-	io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	errors "github.com/sulwan/qiniu-sdk/v7/storagev2/errors"
-	uptoken "github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	errors "github.com/medtrib/qiniu-sdk/v7/storagev2/errors"
+	uptoken "github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 // 调用 API 所用的请求

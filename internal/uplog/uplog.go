@@ -10,7 +10,7 @@ import (
 	"syscall"
 
 	sysinfo "github.com/elastic/go-sysinfo"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 type (

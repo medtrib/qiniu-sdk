@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
-	internal_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/backoff"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/resolver"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
+	internal_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/backoff"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/resolver"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 type (

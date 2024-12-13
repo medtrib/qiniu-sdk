@@ -6,7 +6,7 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/sulwan/qiniu-sdk/v7/auth"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
 	"net/http"
 	"os"
 	"testing"

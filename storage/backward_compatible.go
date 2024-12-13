@@ -1,4 +1,4 @@
-// 原来rpc.go包含了客户端的信息，这个部分被调整到了"github.com/sulwan/qiniu-sdk/v7/client"
+// 原来rpc.go包含了客户端的信息，这个部分被调整到了"github.com/medtrib/qiniu-sdk/v7/client"
 // 这个文件的内容不应该再被使用
 // 客户端应该是所有服务公用的，包括kodo, cdn, dora, atlab等，不应该放在storage下
 
@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/conf"
+	"github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/conf"
 )
 
 var DefaultClient = client.DefaultClient

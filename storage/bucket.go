@@ -16,19 +16,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/batch_ops"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/get_bucket_domains_v3"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/backoff"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/resolver"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/batch_ops"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/get_bucket_domains_v3"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/backoff"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/resolver"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 
-	"github.com/sulwan/qiniu-sdk/v7/auth"
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/auth"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
 )
 
 // 资源管理相关的默认域名

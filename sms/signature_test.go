@@ -6,7 +6,7 @@ package sms_test
 import (
 	"testing"
 
-	"github.com/sulwan/qiniu-sdk/v7/sms"
+	"github.com/medtrib/qiniu-sdk/v7/sms"
 )
 
 func TestSignature(t *testing.T) {

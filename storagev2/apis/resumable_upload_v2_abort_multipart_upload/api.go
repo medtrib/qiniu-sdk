@@ -3,7 +3,7 @@
 // 根据 UploadId 终止 Multipart Upload
 package resumable_upload_v2_abort_multipart_upload
 
-import uptoken "github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+import uptoken "github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 
 // 调用 API 所用的请求
 type Request struct {

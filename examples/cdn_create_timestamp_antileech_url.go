@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/cdn"
+	"github.com/medtrib/qiniu-sdk/v7/cdn"
 )
 
 func main() {

@@ -14,14 +14,14 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/backoff"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/chooser"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/resolver"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/retrier"
+	"github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/backoff"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/chooser"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/resolver"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/retrier"
 )
 
 // 此处废弃，但为了兼容老版本，单独放置一个文件

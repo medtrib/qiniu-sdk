@@ -3,8 +3,8 @@
 package apis
 
 import (
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
-	region "github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
+	region "github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 )
 
 // API 客户端

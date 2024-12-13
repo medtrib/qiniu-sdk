@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	clientv1 "github.com/sulwan/qiniu-sdk/v7/client"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/region"
+	clientv1 "github.com/medtrib/qiniu-sdk/v7/client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/region"
 )
 
 func TestHttpClient(t *testing.T) {

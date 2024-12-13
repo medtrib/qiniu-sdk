@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
 )
 
 // ErrInvalidUpToken 非法的上传凭证

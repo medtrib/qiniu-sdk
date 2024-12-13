@@ -3,8 +3,8 @@ package objects
 import (
 	"context"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	httpclient "github.com/sulwan/qiniu-sdk/v7/storagev2/http_client"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	httpclient "github.com/medtrib/qiniu-sdk/v7/storagev2/http_client"
 )
 
 type (

@@ -3,8 +3,8 @@ package defaults
 import (
 	"strings"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/configfile"
-	"github.com/sulwan/qiniu-sdk/v7/internal/env"
+	"github.com/medtrib/qiniu-sdk/v7/internal/configfile"
+	"github.com/medtrib/qiniu-sdk/v7/internal/env"
 )
 
 func Credentials() (string, string, error) {

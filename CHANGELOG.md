@@ -8,7 +8,7 @@
 ## 7.24.0
 * 新增
   * 支持工作流模版
-  * 在 [storage](github.com/sulwan/qiniu-sdk/v7/storage) 包中支持上传加速
+  * 在 [storage](github.com/medtrib/qiniu-sdk/v7/storage) 包中支持上传加速
 * 优化
   * 超时连接重试机制
   * 域名解析请求机制
@@ -17,8 +17,8 @@
 ## 7.23.0
 * 新增
   * 支持上传加速
-  * 多媒体处理库 [media](github.com/sulwan/qiniu-sdk/v7/media/apis) 包，提供多媒体处理接口
-  * IAM [iam](github.com/sulwan/qiniu-sdk/v7/iam/apis) 包，提供权限管理系统接口
+  * 多媒体处理库 [media](github.com/medtrib/qiniu-sdk/v7/media/apis) 包，提供多媒体处理接口
+  * IAM [iam](github.com/medtrib/qiniu-sdk/v7/iam/apis) 包，提供权限管理系统接口
   * 获取下载 URL 的实用方法
   * 提供文件夹分享接口
 * 修复
@@ -27,9 +27,9 @@
 ## 7.22.0
 * 新增
   * 新版存储客户端库 storagev2 包，包含
-    * 新的 [uploader](github.com/sulwan/qiniu-sdk/v7/storagev2/uploader) 包设计，提供更好的对象上传接口
-    * 新的 [downloader](github.com/sulwan/qiniu-sdk/v7/storagev2/downloader) 包设计，提供更好的对象下载接口
-    * 新的 [objects](github.com/sulwan/qiniu-sdk/v7/storagev2/objects) 包设计，提供更好的对象管理接口
+    * 新的 [uploader](github.com/medtrib/qiniu-sdk/v7/storagev2/uploader) 包设计，提供更好的对象上传接口
+    * 新的 [downloader](github.com/medtrib/qiniu-sdk/v7/storagev2/downloader) 包设计，提供更好的对象下载接口
+    * 新的 [objects](github.com/medtrib/qiniu-sdk/v7/storagev2/objects) 包设计，提供更好的对象管理接口
   * 为 HTTP 客户端新增防劫持能力
 * 调整
   * 查询区域主备域名
@@ -44,10 +44,10 @@
 * 新增
   * 统一环境变量和配置文件
   * 新版存储客户端库 storagev2 包，包含
-    * 新的 [resolver](github.com/sulwan/qiniu-sdk/v7/storagev2/resolver) 包设计，可以为 HTTP 客户端指定域名解析器
-    * 新的 [chooser](github.com/sulwan/qiniu-sdk/v7/storagev2/chooser) 包设计，可以为 HTTP 客户端选择成功率较高的 IP 地址
-    * 新的 [backoff](github.com/sulwan/qiniu-sdk/v7/storagev2/backoff) 包设计，可以为 HTTP 客户端指定重试退避时长
-    * 新的 [retrier](github.com/sulwan/qiniu-sdk/v7/storagev2/retrier) 包设计，可以为 HTTP 客户端指定重试策略
+    * 新的 [resolver](github.com/medtrib/qiniu-sdk/v7/storagev2/resolver) 包设计，可以为 HTTP 客户端指定域名解析器
+    * 新的 [chooser](github.com/medtrib/qiniu-sdk/v7/storagev2/chooser) 包设计，可以为 HTTP 客户端选择成功率较高的 IP 地址
+    * 新的 [backoff](github.com/medtrib/qiniu-sdk/v7/storagev2/backoff) 包设计，可以为 HTTP 客户端指定重试退避时长
+    * 新的 [retrier](github.com/medtrib/qiniu-sdk/v7/storagev2/retrier) 包设计，可以为 HTTP 客户端指定重试策略
     * 为 HTTP 客户端新增 uplog 机制
 
 ## 7.20.2
@@ -62,10 +62,10 @@
 ## 7.20.0
 * 新增
   * 新版存储客户端库 storagev2 包，包含
-    * 新的 [region](github.com/sulwan/qiniu-sdk/v7/storagev2/region) 包设计，使用新的 `RegionsProvider` 和 `EndpointsProvider` 接口替代之前的 `Region` 结构体
-    * 新的 [credentials](github.com/sulwan/qiniu-sdk/v7/storagev2/credentials) 包设计，使用新的 `CredentialsProvider` 接口替代之前的 `Credentials` 结构体
-    * 新的 [uptoken](github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken) 包设计，使用新的 `PutPolicy` 结构体，使用新的 `UpTokenProvider` 接口替代之前用字符串表示上传凭证的方式
-    * 新的 [apis](github.com/sulwan/qiniu-sdk/v7/storagev2/apis) 包设计，使用新的 `Storage` 结构体调用七牛 Kodo API
+    * 新的 [region](github.com/medtrib/qiniu-sdk/v7/storagev2/region) 包设计，使用新的 `RegionsProvider` 和 `EndpointsProvider` 接口替代之前的 `Region` 结构体
+    * 新的 [credentials](github.com/medtrib/qiniu-sdk/v7/storagev2/credentials) 包设计，使用新的 `CredentialsProvider` 接口替代之前的 `Credentials` 结构体
+    * 新的 [uptoken](github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken) 包设计，使用新的 `PutPolicy` 结构体，使用新的 `UpTokenProvider` 接口替代之前用字符串表示上传凭证的方式
+    * 新的 [apis](github.com/medtrib/qiniu-sdk/v7/storagev2/apis) 包设计，使用新的 `Storage` 结构体调用七牛 Kodo API
 
 ## 7.19.1
 * 新增

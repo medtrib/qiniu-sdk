@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/context"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/get_objects"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/apis/stat_object"
+	"github.com/medtrib/qiniu-sdk/v7/internal/context"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/get_objects"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/apis/stat_object"
 )
 
 type (

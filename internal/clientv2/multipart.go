@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/context"
-	compatible_io "github.com/sulwan/qiniu-sdk/v7/internal/io"
+	"github.com/medtrib/qiniu-sdk/v7/internal/context"
+	compatible_io "github.com/medtrib/qiniu-sdk/v7/internal/io"
 )
 
 type (

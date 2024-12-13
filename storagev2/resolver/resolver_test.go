@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/resolver"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/resolver"
 )
 
 func TestDefaultResolver(t *testing.T) {

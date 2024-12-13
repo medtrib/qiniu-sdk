@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/freezer"
+	"github.com/medtrib/qiniu-sdk/v7/internal/freezer"
 )
 
 var (

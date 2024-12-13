@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/credentials"
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/uptoken"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/credentials"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/uptoken"
 )
 
 type credentialsUpTokenSigner struct {

@@ -3,7 +3,7 @@ package downloader
 import (
 	"net/http"
 
-	"github.com/sulwan/qiniu-sdk/v7/internal/clientv2"
+	"github.com/medtrib/qiniu-sdk/v7/internal/clientv2"
 )
 
 type (

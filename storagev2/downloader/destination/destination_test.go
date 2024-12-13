@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sulwan/qiniu-sdk/v7/storagev2/downloader/destination"
+	"github.com/medtrib/qiniu-sdk/v7/storagev2/downloader/destination"
 )
 
 func TestSeekableDestination(t *testing.T) {

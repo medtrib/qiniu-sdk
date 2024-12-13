@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/sulwan/qiniu-sdk/v7/storagev2/defaults"
+import "github.com/medtrib/qiniu-sdk/v7/storagev2/defaults"
 
 // Config 为文件上传，资源管理等配置
 type Config struct {
